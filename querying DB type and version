@@ -1,0 +1,9 @@
+Querying the database type and version
+Different databases provide different ways of querying their version. You often need to try out different queries to find one that works, allowing you to determine both the type and version of the database software.
+
+The queries to determine the database version for some popular database types are as follows:
+
+      Database type	Query
+      Microsoft, MySQL	SELECT @@version
+      Oracle	SELECT * FROM v$version
+      PostgreSQL	SELECT version()
